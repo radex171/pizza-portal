@@ -1,0 +1,15 @@
+import React from 'react';
+import styles from './Tables.scss';
+import PropTypes from 'prop-types';
+const TablesBookingId = ({match}) =>{
+
+  return(
+    <div className={styles.component}>
+      <h2>Rezerwacja nr {match.params.id}</h2>
+    </div>
+  );};
+TablesBookingId.propTypes = {
+  match: PropTypes.string,
+      
+};
+export default TablesBookingId;

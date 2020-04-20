@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-globals */
 import{select, settings} from '../settings.js';
 import BaseWidget from './BaseWidget.js';
 

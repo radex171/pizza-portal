@@ -1,5 +1,3 @@
-/* eslint-disable no-prototype-builtins */
-/* eslint-disable eqeqeq */
 /* global Handlebars, dataSource */
 export const utils = {}; // eslint-disable-line no-unused-vars
 

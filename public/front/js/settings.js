@@ -1,4 +1,3 @@
-/* eslint-disable eqeqeq */
 /* global Handlebars */
 
 export const select = {
@@ -120,7 +119,7 @@ export const settings = {
     tableIdAttribute: 'data-table',
   },
   db: {
-    url: '//localhost:3131/api',
+    url: '//' + window.location.hostname + (window.location.hostname=='localhost' ? ':3131' : ''),
     product: 'product',
     order: 'order',
     booking: 'booking',

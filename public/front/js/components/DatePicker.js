@@ -25,11 +25,11 @@ class DatePicker extends BaseWidget{
       disable: [
         function(date){
           return (date.getDay() === 1);
-        },
+        }
       ],
 
       locale: {
-        'firstDayOfWeek': 1,
+        'firstDayOfWeek': 1
       },
      
       onChange: function(dateStr){

@@ -1,0 +1,10 @@
+@import '../../../styles/settings.scss';
+
+.component {
+  padding: $base-size;
+
+  .login {
+    padding: 50px auto;  
+    background-color: lightgrey;
+  };
+};

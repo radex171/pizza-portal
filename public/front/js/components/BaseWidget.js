@@ -1,4 +1,3 @@
-/* eslint-disable eqeqeq */
 class BaseWidget{
   constructor(wrapperElement, initialValue){
     const thisWidget = this;
@@ -46,7 +45,7 @@ class BaseWidget{
   announce(){
     const thisWidget = this;
     const event = new CustomEvent('updated', {
-      bubbles: true,
+      bubbles: true
     });
     
     thisWidget.dom.wrapper.dispatchEvent(event);

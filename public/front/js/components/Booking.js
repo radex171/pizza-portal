@@ -1,5 +1,3 @@
-/* eslint-disable eqeqeq */
-/* eslint-disable no-restricted-globals */
 import {select, templates, settings, classNames} from '../settings.js';
 import AmountWidget from './AmountWidget.js';
 import {utils} from '../utils.js';

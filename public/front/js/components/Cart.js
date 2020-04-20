@@ -1,7 +1,3 @@
-/* eslint-disable eqeqeq */
-/* eslint-disable no-sequences */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable no-restricted-globals */
 import{select, settings, classNames, templates} from '../settings.js';
 import {utils} from '../utils.js';
 import CartProduct from './CartProduct.js';
