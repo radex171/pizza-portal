@@ -10,7 +10,7 @@ const Login = () =>{
         <input type='text' id='username' name='username' placeholder='please enter login'></input><br/> <br/>
         <label>Password:</label><br/>
         <input type='password' id='password' name='Password' placeholder='please enter password'></input><br/> <br/>
-        <a href={`${process.env.PUBLIC_URL}/`}><input type='submit' value='Sing in'/></a>
+        <a href={`${process.env.PUBLIC_URL}/dashboard`}><input type='submit' value='Sing in'/></a>
       </div>
       <h2>Login view</h2>
     </div>

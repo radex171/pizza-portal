@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './Tables.scss';
-
+import styles from './Tables.module.scss';
 const TablesEventsNew = () =>{
 
   return(
